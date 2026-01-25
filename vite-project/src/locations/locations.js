@@ -196,7 +196,7 @@ function renderPagination() {
 }
 
 
-async function render() {
+export async function render() {
     await renderLocations();
     renderPagination();
 }

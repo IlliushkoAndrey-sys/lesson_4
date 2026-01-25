@@ -1,6 +1,4 @@
 
-.season_number {
-}
 .season_number h2 {
     margin-top: 30px;
     margin-bottom: 15px;
@@ -13,7 +11,6 @@
     transition: transform 0.6s cubic-bezier(.4,0,.2,1);
 
 }
-
 
 .season-number-title {
     font-weight: bold;
@@ -45,41 +42,42 @@
     font-size: 13px;
     color: #999;
 }
+.season-slider {
+    position: relative; /* для абсолютного позиціонування кнопок */
+}
 
-.slider-wrapper {
+.season-swiper-outer {
+    overflow: hidden; /* ховаємо частину слайдів */
+}
+
+.season-swiper {
+    overflow: visible; /* дозволяємо кнопкам виходити */
     position: relative;
 }
 
-.slider {
-    overflow: hidden;
-    width: 100%;
-}
-
-.slider-inner {
-    display: flex;
-    gap: 15px;
-    transition: transform 0.6s cubic-bezier(.4,0,.2,1);
-}
-
-.slider-wrapper button {
+.swiper-button-prev,
+.swiper-button-next {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 9;
-    background: white;
-    border: 1px solid #999;
-    border-radius: 50%;
-    padding: 10px;
+    color: #007aff;
+    top: 40%;
+    z-index: 10;
+    text-align: center;
+
+    width: 40px;
+    height: 40px;
     cursor: pointer;
 }
 
-.slider-prev {
+.swiper-button-prev {
     left: -50px;
+    transform: rotateY(180deg);
+
 }
 
-.slider-next {
+.swiper-button-next {
     right: -50px;
 }
+
 
 .season_smallcard {
     background: #fff;

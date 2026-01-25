@@ -7,7 +7,7 @@ let firstVariant = false; // Якщо тут поміняти на false буд�
 
 
 
-function init() {
+export function init() {
     const header = document.createElement("header");
 
     const divHeader = document.createElement("div");
@@ -109,9 +109,9 @@ function initSecond() {
             <div class="drop">
                 <button class="nav-btn"></button>
                 <nav class="nav">
-                    <a class="nav_link" href="/lesson_4/characters/characters.html">Characters</a>
-                    <a class="nav_link" href="/lesson_4/locations/locations.html">Locations</a>
-                    <a class="nav_link" href="/lesson_4/episodes/episodes.html">Episodes</a>
+                    <a class="nav_link" href="/src/characters/characters.html">Characters</a>
+                    <a class="nav_link" href="/src/locations/locations.html">Locations</a>
+                    <a class="nav_link" href="/src/episodes/episodes.html">Episodes</a>
 
                 </nav>
             </div>
