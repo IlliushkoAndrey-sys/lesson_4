@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Characters</title>
+
+    <link rel="stylesheet" href="./src/styles/base.css">
+    <link rel="stylesheet" href="./src/styles/layout.css">
+    <link rel="stylesheet" href="./src/characters/characters.css">
+
+
+</head>
+<body>
+
+
+<div class= "characters">
+    <div class="container container--characters">
+        <div class="character-find">
+            <h1>Characters</h1>
+            <div class="finder-inner">
+<!--                <button class="characters-finder-btn">Find Character</button>-->
+                <input class="characters-finder" type="text" name="character" placeholder="Character Name">
+            </div>
+
+        </div>
+        <div id="loader" class="loader hide"></div>
+        <div class="characters_message hide"></div>
+
+        <div class="characters_inner">
+
+            </div>
+
+        </div>
+    </div>
+
+
+<div class="pagination_center">
+    <div class="pagination">
+        <button class="prevBtn" href="#">Prev</button>
+        <a class="firstPage" href="characters.html" >1</a>
+        <a class="currentPage active" href="#" >1</a>
+        <a class="currentPage currentPage--maxPage" href="#" >1</a>
+        <button class="nextBtn" href="#">Next</button>
+    </div>
+</div>
+<script type="module" src="/src/scripts/header.js"></script>
+<script type="module" src="/src/main.js" ></script>
+
+</body>
+</html>

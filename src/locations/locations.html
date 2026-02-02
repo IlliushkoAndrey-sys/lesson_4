@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <title>Locations</title>
+
+    <link rel="stylesheet" href="../../../styles/base.css">
+    <link rel="stylesheet" href="../../../styles/layout.css">
+    <link rel="stylesheet" href="locations.css">
+
+
+</head>
+<body>
+
+
+<div class= "locations">
+    <div class="container container--locations">
+        <div class="locations-find">
+            <h1>Locations</h1>
+            <div class="finder-inner">
+                <input class="locations-finder" type="text" placeholder="Enter a location">
+            </div>
+        </div>
+        <div id="loader" class="loader hide"></div>
+        <div class="locations_message hide"></div>
+
+        <div class="locations_inner">
+
+        </div>
+    </div>
+
+</div>
+
+<div class="pagination_center">
+    <div class="pagination">
+        <button class="prevBtn" href="#">Prev</button>
+        <a class="firstPage" href="characters.html" >1</a>
+        <a class="currentPage active" href="#" >1</a>
+        <a class="currentPage currentPage--maxPage" href="#" >1</a>
+        <button class="nextBtn" href="#">Next</button>
+    </div>
+</div>
+<script type="module" src="/src/scripts/header.js"></script>
+<script type="module" src="/src/main.js" ></script>
+
+</body>
+</html>
