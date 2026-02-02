@@ -1,0 +1,23 @@
+{
+  "name": "lesson_4",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IlliushkoAndrey-sys/lesson_4#readme",
+  "bugs": {
+    "url": "https://github.com/IlliushkoAndrey-sys/lesson_4/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlliushkoAndrey-sys/lesson_4.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "swiper": "^12.0.3"
+  }
+}
